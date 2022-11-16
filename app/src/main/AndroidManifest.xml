@@ -23,9 +23,6 @@
                 android:name=".table_layout"
                 android:exported="false"/>
         <activity
-                android:name=".TableLayout"
-                android:exported="false"/>
-        <activity
                 android:name=".lineal_layout"
                 android:exported="false"/>
         <activity

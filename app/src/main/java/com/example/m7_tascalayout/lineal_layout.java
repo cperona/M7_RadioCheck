@@ -10,5 +10,4 @@ public class lineal_layout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lineal_layout);
     }
-
 }
