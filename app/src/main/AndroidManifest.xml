@@ -14,22 +14,7 @@
             android:theme="@style/Theme.M7_TascaLayout"
             tools:targetApi="31">
         <activity
-                android:name=".relative_layout"
-                android:exported="false"/>
-        <activity
-                android:name=".grid_layout"
-                android:exported="false"/>
-        <activity
-                android:name=".table_layout"
-                android:exported="false"/>
-        <activity
-                android:name=".lineal_layout"
-                android:exported="false"/>
-        <activity
-                android:name=".frame_layout"
-                android:exported="false"/>
-        <activity
-                android:name=".contraint_layout"
+                android:name=".RadioCheck"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -37,6 +22,24 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+                android:name=".contraint_layout_6"
+                android:exported="false"/>
+        <activity
+                android:name=".grid_layout_3"
+                android:exported="false"/>
+        <activity
+                android:name=".table_layout_5"
+                android:exported="false"/>
+        <activity
+                android:name=".lineal_layout_4"
+                android:exported="false"/>
+        <activity
+                android:name=".frame_layout_2"
+                android:exported="false"/>
+        <activity
+                android:name=".relative_layout_1"
+                android:exported="false"/>
     </application>
 
 </manifest>

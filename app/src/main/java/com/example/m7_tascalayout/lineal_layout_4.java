@@ -5,17 +5,16 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class relative_layout extends AppCompatActivity {
+public class lineal_layout_4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_relative_layout);
+        setContentView(R.layout.activity_lineal_layout_4);
     }
 
-    public void fletxaOnClickEvent(View view) {
-        Intent intent = new Intent(this, frame_layout.class);
+    public void seguentLinealOnClick(View view) {
+        Intent intent = new Intent(this, table_layout_5.class);
         startActivity(intent);
     }
-
 }

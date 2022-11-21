@@ -17,9 +17,9 @@
     </TableRow>
     <TableRow>
         <Button
-                android:text="Button"
+                android:text="Següent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/button4"
-        />
+                android:onClick="seguentTableOnClick"/>
     </TableRow>
 </TableLayout>
